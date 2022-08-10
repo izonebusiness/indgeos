@@ -83,9 +83,9 @@ https://templatemo.com/tm-506-tinker
                         <h4>GIS Services</h4>
                         <div class="line-dec"></div>
                         <p>Indgeos have forefront knowledge of data mapping, feature extraction / compilation, information management, and integrating verticals with GIS expertise.</p>
-                        <div class="primary-blue-button">
+                        <!--<div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -96,9 +96,9 @@ https://templatemo.com/tm-506-tinker
                         <h4>Remote Sensing</h4>
                         <div class="line-dec"></div>
                         <p>Indgeos is expertize in Remote sensing, image interpretation and Classification. We implement innovative techniques to get precise land cover classifications.</p>
-                        <div class="primary-blue-button">
+                        <!--<div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -109,9 +109,9 @@ https://templatemo.com/tm-506-tinker
                         <h4>GIS Data Management</h4>
                         <div class="line-dec"></div>
                         <p>Indgeos helps finding data sources specific for the project.Data Collection, processing, creating, modeling, cleaning and validating, data migration are offered.</p>
-                        <div class="primary-blue-button">
+                        <!--<div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -122,9 +122,9 @@ https://templatemo.com/tm-506-tinker
                         <h4>Customized GIS Softwares</h4>
                         <div class="line-dec"></div>
                         <p>Indgeos offers Customized GIS Solutions for Desktops, Web, cloud, mobile apps and seamless integration across platforms and verticals.</p>
-                        <div class="primary-blue-button">
+                        <!--<div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -448,3 +448,40 @@ https://templatemo.com/tm-506-tinker
     </script>
 </body>
 </html>
+<--
+    services animation for description code
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Show / hide multiple div</title>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+    <div class="menu">
+    <a  class="scroll-link" data-id="portfolio" target="1">Continue Reading</a>
+    <a  class="scroll-link" data-id="portfolio" target="2">Continue Reading</a>
+    <a  class="scroll-link" data-id="portfolio" target="3">Continue Reading</a>
+    <a  class="scroll-link" data-id="portfolio" target="4">Continue Reading</a> 
+    </div>
+        <section class="target_box" id="plsc" style="display: none">
+            <div id="div1" class="target">content one</div>
+            <div id="div2" class="target">content two</div>
+            <div id="div3" class="target">content three</div>
+            <div id="div4" class="target">content four</div>
+        </section>
+        <script>
+        jQuery(function(){
+    jQuery('.scroll-link').click(function(){
+        $('#plsc').show();
+        jQuery('.target').hide();
+        jQuery('#div'+$(this).attr('target')).show();
+    });
+    });
+    </script>
+                <script>
+      
+        </script>
+    </body>
+</html>
+-->
